@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResourceRing", "ResourceRing.csproj", "{8C387934-927C-4C81-A5C3-CB73960F558D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResourceRingServer", "..\ResourceRingServer\ResourceRingServer.csproj", "{0EEA5861-8EDD-4803-9BF9-A3CF0E57B1E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RRLib", "..\RRLib\RRLib.csproj", "{46E54C29-7F41-4F7E-95E2-C428F548D4E9}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+		{8C387934-927C-4C81-A5C3-CB73960F558D}.0 = {46E54C29-7F41-4F7E-95E2-C428F548D4E9}
+		{0EEA5861-8EDD-4803-9BF9-A3CF0E57B1E2}.0 = {46E54C29-7F41-4F7E-95E2-C428F548D4E9}
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{8C387934-927C-4C81-A5C3-CB73960F558D}.Debug.ActiveCfg = Debug|.NET
+		{8C387934-927C-4C81-A5C3-CB73960F558D}.Debug.Build.0 = Debug|.NET
+		{8C387934-927C-4C81-A5C3-CB73960F558D}.Release.ActiveCfg = Release|.NET
+		{8C387934-927C-4C81-A5C3-CB73960F558D}.Release.Build.0 = Release|.NET
+		{0EEA5861-8EDD-4803-9BF9-A3CF0E57B1E2}.Debug.ActiveCfg = Debug|.NET
+		{0EEA5861-8EDD-4803-9BF9-A3CF0E57B1E2}.Debug.Build.0 = Debug|.NET
+		{0EEA5861-8EDD-4803-9BF9-A3CF0E57B1E2}.Release.ActiveCfg = Release|.NET
+		{0EEA5861-8EDD-4803-9BF9-A3CF0E57B1E2}.Release.Build.0 = Release|.NET
+		{46E54C29-7F41-4F7E-95E2-C428F548D4E9}.Debug.ActiveCfg = Debug|.NET
+		{46E54C29-7F41-4F7E-95E2-C428F548D4E9}.Debug.Build.0 = Debug|.NET
+		{46E54C29-7F41-4F7E-95E2-C428F548D4E9}.Release.ActiveCfg = Release|.NET
+		{46E54C29-7F41-4F7E-95E2-C428F548D4E9}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
